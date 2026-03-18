@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>John Smith - Researcher</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; line-height: 1.6; color: #333; max-width: 900px; margin: 0 auto; padding: 40px 20px; }
+        header { text-align: center; margin-bottom: 40px; }
+        h1 { font-size: 2.5em; color: #2c5aa0; margin-bottom: 10px; }
+        header p { color: #666; }
+        .section { margin-bottom: 40px; }
+        h2 { font-size: 1.8em; color: #2c5aa0; border-bottom: 2px solid #eaeaea; padding-bottom: 10px; margin-bottom: 20px; }
+        .paper { margin-bottom: 25px; padding: 20px; background: #f9f9f9; border-radius: 8px; }
+        .paper-title { font-size: 1.3em; font-weight: 600; color: #2c5aa0; margin-bottom: 8px; }
+        .paper-venue { font-style: italic; color: #555; margin-bottom: 8px; }
+        .paper-status { display: inline-block; padding: 4px 12px; border-radius: 20px; font-size: 0.85em; font-weight: 500; margin-bottom: 10px; }
+        .status-accepted { background: #e8f5e9; color: #2e7d32; }
+        .status-preprint { background: #fff3e0; color: #ef6c00; }
+        .status-under-review { background: #e3f2fd; color: #1565c0; }
+        .status-oral { background: #fce4ec; color: #c2185b; }
+        a { color: #1976d2; text-decoration: none; }
+        a:hover { text-decoration: underline; }
+        .code-link { display: inline-block; margin-top: 10px; }
+        .code-link a { background: #333; color: #fff; padding: 6px 14px; border-radius: 4px; }
+        .code-link a:hover { background: #555; text-decoration: none; }
+        .authors { color: #555; margin: 10px 0; font-size: 0.95em; }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>John Smith</h1>
+        <p>Researcher</p>
+        <p>Deniz Zorlu</p>
+    </header>
+
+    <section class="section">
+        <h2>Publications</h2>
+        
+        <!-- COML 2026 - Accepted with Oral Presentation -->
+        <div class="paper">
+            <span class="paper-status status-oral">Oral Presentation (Top ~1%)</span>
+            <div class="paper-title">Ipsum Lorem is all you need</div>
+            <div class="paper-venue">Conference on Language Modeling (COML 2026)</div>
+            <div class="authors">John Smith et al.</div>
+            <div class="code-link">
+                <strong>Code:</strong> 
+                <a href="https://github.com/dzorlu/ipsum-lorem-all-you-need" target="_blank">
+                    https://github.com/dzorlu/ipsum-lorem-all-you-need
+                </a>
+            </div>
+        </div>
+
+        <!-- COMLW 2026 - Accepted -->
+        <div class="paper">
+            <span class="paper-status status-accepted">Accepted</span>
+            <div class="paper-title">Ipsum Lorem is all you need for a workshop</div>
+            <div class="paper-venue">COML Workshop on Large Language Models (COMLW 2026)</div>
+            <div class="authors">John Smith et al.</div>
+        </div>
+
+        <!-- COLM 2026 - Accepted -->
+        <div class="paper">
+            <span class="paper-status status-accepted">Accepted</span>
+            <div class="paper-title">[Paper Title for COLM 2026]</div>
+            <div class="paper-venue">Conference on Language Modeling (COLM 2026)</div>
+            <div class="authors">John Smith et al.</div>
+        </div>
+
+        <!-- COAI 2026 - Accepted -->
+        <div class="paper">
+            <span class="paper-status status-accepted">Accepted</span>
+            <div class="paper-title">Optimizing Large Language Models for Contextual Reasoning in Multi-Task Environments</div>
+            <div class="paper-venue">Conference on Artificial Intelligence (COAI 2026)</div>
+            <div class="authors">John Smith et al.</div>
+            <div class="code-link">
+                <strong>Code:</strong> 
+                <a href="https://github.com/dzorlu/optimizing-llms-contextual-reasoning" target="_blank">
+                    https://github.com/dzorlu/optimizing-llms-contextual-reasoning
+                </a>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
